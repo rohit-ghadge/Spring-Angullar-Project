@@ -1,0 +1,24 @@
+package com.app.dao;
+
+import java.util.List;
+
+import com.app.pojos.ServicePojo;
+import com.app.pojos.SubServicePojo;
+
+public interface IAdminDao {
+	List<ServicePojo> getAllMainServices();
+
+	ServicePojo getMainService(int Id);
+
+	Integer addMainService(ServicePojo ser);
+
+	ServicePojo updateMainService(ServicePojo MainService);
+
+	Integer deleteMainService(ServicePojo MainService);
+
+	List<SubServicePojo> getAllSubServices(int mainServiceId);
+	
+	SubServicePojo getSubService(int Id);
+	
+	Integer deleteSubService(SubServicePojo serv);
+}

@@ -1,0 +1,48 @@
+package com.app.pojos;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.persistence.*;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
+@Entity
+public class ServicePojo extends AbstractEntity
+{
+	private String mainServiceName;
+	
+	@JsonIgnore
+	private List<SubServicePojo> subservicelist = new ArrayList<SubServicePojo>();
+	
+	public ServicePojo() {
+		System.out.println("in service pojo");
+	}
+
+	public ServicePojo(String serviceName) {
+		super();
+		this.mainServiceName = serviceName;
+	}
+
+	public String getServiceName() {
+		return mainServiceName;
+	}
+
+	public void setServiceName(String serviceName) {
+		this.mainServiceName = serviceName;
+	}
+	
+	@OneToMany(mappedBy = "mainService", cascade = CascadeType.ALL, orphanRemoval = true)
+	public List<SubServicePojo> getSubservicelist() {
+		return subservicelist;
+	}
+
+	public void setSubservicelist(List<SubServicePojo> subservicelist) {
+		this.subservicelist = subservicelist;
+	}
+
+	@Override
+	public String toString() {
+		return "ServicePojo [serviceName=" + mainServiceName + "]";
+	}
+}

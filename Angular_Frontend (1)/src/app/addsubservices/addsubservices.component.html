@@ -1,0 +1,26 @@
+<tr style="text-align: end"><a class="btn btn-info" routerLink="/subservice" role="button">Back to sub service list</a></tr>
+<form #myForm="ngForm" (ngSubmit)="addnewsubservices(myForm)" role="form">
+  <legend>Add Sub Services</legend>
+
+  <div class="form-group">
+    <label for="no">No:</label>
+    <input type="no" [(ngModel)]="sees" readonly="readonly" class="form-control" placeholder="Enter name" name="sid">
+  </div>
+
+  <div class="form-group">
+    <label for="">SubService Name</label>
+    <input ngModel name="subServiceName" type="text" class="form-control" id="" placeholder="Input field">
+  </div>
+
+  <div class="form-group">
+    <label for="">SubService description</label>
+    <input ngModel name="subServiceDesc" type="text" class="form-control" id="" placeholder="Input field">
+  </div>
+
+  <div class="form-group">
+    <label for="">Amount</label>
+    <input ngModel name="amount" type="text" class="form-control" id="" placeholder="Input field">
+  </div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>

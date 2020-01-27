@@ -1,0 +1,439 @@
+
+Jan 15, 2020 20:09:08.93 NEW SESSION
+Jan 15, 2020 20:09:08.93 [6512:6532:0115/200908.931371:ERROR:browser_process_sub_thread.cc(221)] Waited 782 ms for network service
+Jan 15, 2020 20:09:08.93 Opening in existing browser session.
+
+Jan 16, 2020 13:12:53.52 NEW SESSION
+Jan 16, 2020 13:12:53.52 [7496:7517:0116/131253.515904:ERROR:browser_process_sub_thread.cc(221)] Waited 5 ms for network service
+Jan 16, 2020 13:12:53.64 Opening in existing browser session.
+Jan 16, 2020 13:14:02.04 [7736:7756:0116/131402.040966:ERROR:browser_process_sub_thread.cc(221)] Waited 8 ms for network service
+Jan 16, 2020 13:14:02.08 Opening in existing browser session.
+Jan 16, 2020 13:16:48.92 Opening in existing browser session.
+Jan 16, 2020 14:07:30.67 [9082:9102:0116/140730.671537:ERROR:browser_process_sub_thread.cc(221)] Waited 12 ms for network service
+Jan 16, 2020 14:07:30.73 Opening in existing browser session.
+Jan 16, 2020 14:10:33.72 [9402:9422:0116/141033.721364:ERROR:browser_process_sub_thread.cc(221)] Waited 5 ms for network service
+Jan 16, 2020 14:10:33.77 Opening in existing browser session.
+Jan 16, 2020 14:14:58.75 [9912:9933:0116/141458.758574:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 16, 2020 14:14:58.83 Opening in existing browser session.
+Jan 16, 2020 14:22:15.64 [10259:10280:0116/142215.647669:ERROR:browser_process_sub_thread.cc(221)] Waited 8 ms for network service
+Jan 16, 2020 14:22:15.73 Opening in existing browser session.
+Jan 16, 2020 14:34:17.19 [10591:10611:0116/143417.194929:ERROR:browser_process_sub_thread.cc(221)] Waited 8 ms for network service
+Jan 16, 2020 14:34:17.22 Opening in existing browser session.
+Jan 16, 2020 14:40:09.42 [10933:10954:0116/144009.422886:ERROR:browser_process_sub_thread.cc(221)] Waited 5 ms for network service
+Jan 16, 2020 14:40:09.72 Opening in existing browser session.
+Jan 16, 2020 14:48:55.97 [11254:11274:0116/144855.974392:ERROR:browser_process_sub_thread.cc(221)] Waited 5 ms for network service
+Jan 16, 2020 14:48:56.01 Opening in existing browser session.
+Jan 16, 2020 14:49:37.93 [11379:11400:0116/144937.936253:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 16, 2020 14:49:37.99 Opening in existing browser session.
+Jan 16, 2020 14:51:13.26 [11618:11638:0116/145113.265505:ERROR:browser_process_sub_thread.cc(221)] Waited 9 ms for network service
+Jan 16, 2020 14:51:13.33 Opening in existing browser session.
+Jan 16, 2020 17:12:46.60 [15715:15735:0116/171246.594929:ERROR:browser_process_sub_thread.cc(221)] Waited 5 ms for network service
+Jan 16, 2020 17:12:46.76 Opening in existing browser session.
+Jan 16, 2020 17:18:22.56 [16065:16085:0116/171822.563001:ERROR:browser_process_sub_thread.cc(221)] Waited 9 ms for network service
+Jan 16, 2020 17:18:22.71 Opening in existing browser session.
+Jan 16, 2020 17:25:16.82 [16396:16417:0116/172516.822975:ERROR:browser_process_sub_thread.cc(221)] Waited 6 ms for network service
+Jan 16, 2020 17:25:16.86 Opening in existing browser session.
+Jan 16, 2020 17:36:46.06 [16909:16929:0116/173646.066347:ERROR:browser_process_sub_thread.cc(221)] Waited 10 ms for network service
+Jan 16, 2020 17:36:46.12 Opening in existing browser session.
+Jan 16, 2020 18:36:13.67 [19938:19958:0116/183613.655122:ERROR:browser_process_sub_thread.cc(221)] Waited 112 ms for network service
+Jan 16, 2020 18:36:13.85 Opening in existing browser session.
+Jan 16, 2020 18:39:17.74 [20441:20462:0116/183917.745104:ERROR:browser_process_sub_thread.cc(221)] Waited 6 ms for network service
+Jan 16, 2020 18:39:17.79 Opening in existing browser session.
+
+Jan 17, 2020 09:31:41.55 NEW SESSION
+Jan 17, 2020 09:31:41.55 [4948:4968:0117/093141.548206:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 17, 2020 09:31:41.60 Opening in existing browser session.
+Jan 17, 2020 09:52:23.79 [5602:5622:0117/095223.795521:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 17, 2020 09:52:23.85 Opening in existing browser session.
+Jan 17, 2020 11:01:55.84 [8156:8196:0117/110155.826027:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 17, 2020 11:01:56.04 Opening in existing browser session.
+Jan 17, 2020 11:16:22.46 [8900:8920:0117/111622.464903:ERROR:browser_process_sub_thread.cc(221)] Waited 6 ms for network service
+Jan 17, 2020 11:16:22.56 Opening in existing browser session.
+Jan 17, 2020 11:23:18.06 [9556:9576:0117/112318.063055:ERROR:browser_process_sub_thread.cc(221)] Waited 9 ms for network service
+Jan 17, 2020 11:23:18.11 Opening in existing browser session.
+Jan 17, 2020 11:32:14.54 [9953:9973:0117/113214.543606:ERROR:browser_process_sub_thread.cc(221)] Waited 5 ms for network service
+Jan 17, 2020 11:32:14.60 Opening in existing browser session.
+Jan 17, 2020 11:45:38.38 [10601:10621:0117/114538.383488:ERROR:browser_process_sub_thread.cc(221)] Waited 7 ms for network service
+Jan 17, 2020 11:45:38.44 Opening in existing browser session.
+Jan 17, 2020 11:46:52.58 [10822:10842:0117/114652.585703:ERROR:browser_process_sub_thread.cc(221)] Waited 14 ms for network service
+Jan 17, 2020 11:46:52.63 Opening in existing browser session.
+Jan 17, 2020 12:07:07.20 [11310:11330:0117/120707.199835:ERROR:browser_process_sub_thread.cc(221)] Waited 6 ms for network service
+Jan 17, 2020 12:07:07.26 Opening in existing browser session.
+Jan 17, 2020 12:18:13.30 [12088:12109:0117/121813.301114:ERROR:browser_process_sub_thread.cc(221)] Waited 6 ms for network service
+Jan 17, 2020 12:18:13.35 Opening in existing browser session.
+Jan 17, 2020 13:07:12.17 [13525:13545:0117/130712.172721:ERROR:browser_process_sub_thread.cc(221)] Waited 11 ms for network service
+Jan 17, 2020 13:07:12.23 Opening in existing browser session.
+Jan 17, 2020 13:08:31.93 [13756:13776:0117/130831.936698:ERROR:browser_process_sub_thread.cc(221)] Waited 8 ms for network service
+Jan 17, 2020 13:08:31.99 Opening in existing browser session.
+Jan 17, 2020 13:09:47.61 [14043:14063:0117/130947.614452:ERROR:browser_process_sub_thread.cc(221)] Waited 11 ms for network service
+Jan 17, 2020 13:09:47.67 Opening in existing browser session.
+Jan 17, 2020 13:15:44.38 [14223:14244:0117/131544.385379:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 17, 2020 13:15:44.44 Opening in existing browser session.
+Jan 17, 2020 14:07:27.71 [15247:15268:0117/140727.715191:ERROR:browser_process_sub_thread.cc(221)] Waited 8 ms for network service
+Jan 17, 2020 14:07:27.79 Opening in existing browser session.
+Jan 17, 2020 15:19:55.00 [17169:17190:0117/151955.008137:ERROR:browser_process_sub_thread.cc(221)] Waited 10 ms for network service
+Jan 17, 2020 15:19:55.13 Opening in existing browser session.
+Jan 17, 2020 15:50:24.36 [18393:18413:0117/155024.368694:ERROR:browser_process_sub_thread.cc(221)] Waited 6 ms for network service
+Jan 17, 2020 15:50:24.42 Opening in existing browser session.
+Jan 17, 2020 16:23:35.45 [19932:19952:0117/162335.452699:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 17, 2020 16:23:35.51 Opening in existing browser session.
+Jan 17, 2020 18:21:50.33 [24498:24518:0117/182150.239795:ERROR:browser_process_sub_thread.cc(221)] Waited 5 ms for network service
+Jan 17, 2020 18:21:50.50 Opening in existing browser session.
+Jan 17, 2020 18:31:16.56 [24850:24870:0117/183116.566171:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 17, 2020 18:31:16.79 Opening in existing browser session.
+Jan 17, 2020 18:36:54.43 [25259:25279:0117/183654.433504:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 17, 2020 18:36:54.64 Opening in existing browser session.
+Jan 17, 2020 20:00:23.37 [27382:27402:0117/200023.374467:ERROR:browser_process_sub_thread.cc(221)] Waited 27 ms for network service
+Jan 17, 2020 20:00:23.46 Opening in existing browser session.
+Jan 17, 2020 20:13:01.38 [27851:27871:0117/201301.384045:ERROR:browser_process_sub_thread.cc(221)] Waited 10 ms for network service
+Jan 17, 2020 20:13:01.43 Opening in existing browser session.
+Jan 17, 2020 20:14:37.25 [28163:28183:0117/201437.255833:ERROR:browser_process_sub_thread.cc(221)] Waited 43 ms for network service
+Jan 17, 2020 20:14:37.29 Opening in existing browser session.
+Jan 17, 2020 20:30:24.43 [29151:29171:0117/203024.431561:ERROR:browser_process_sub_thread.cc(221)] Waited 224 ms for network service
+Jan 17, 2020 20:30:24.57 Opening in existing browser session.
+Jan 17, 2020 20:34:16.44 [29447:29467:0117/203416.446417:ERROR:browser_process_sub_thread.cc(221)] Waited 14 ms for network service
+Jan 17, 2020 20:34:16.49 Opening in existing browser session.
+
+Jan 18, 2020 01:32:52.53 NEW SESSION
+Jan 18, 2020 01:32:52.53 [4974:4995:0118/013252.527540:ERROR:browser_process_sub_thread.cc(221)] Waited 12 ms for network service
+Jan 18, 2020 01:32:52.62 Opening in existing browser session.
+
+Jan 18, 2020 09:38:10.57 NEW SESSION
+Jan 18, 2020 09:38:10.57 [4644:4665:0118/093810.571941:ERROR:browser_process_sub_thread.cc(221)] Waited 43 ms for network service
+Jan 18, 2020 09:38:10.74 Opening in existing browser session.
+Jan 18, 2020 09:57:18.95 Opening in existing browser session.
+Jan 18, 2020 10:19:42.96 [5903:5923:0118/101942.967601:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 18, 2020 10:19:43.04 Opening in existing browser session.
+Jan 18, 2020 10:21:43.82 Opening in existing browser session.
+Jan 18, 2020 10:23:42.47 [6408:6428:0118/102342.473963:ERROR:browser_process_sub_thread.cc(221)] Waited 10 ms for network service
+Jan 18, 2020 10:23:42.51 Opening in existing browser session.
+Jan 18, 2020 10:29:33.13 [6765:6788:0118/102933.139263:ERROR:browser_process_sub_thread.cc(221)] Waited 6 ms for network service
+Jan 18, 2020 10:29:33.17 Opening in existing browser session.
+Jan 18, 2020 10:32:20.92 Opening in existing browser session.
+Jan 18, 2020 13:13:22.70 Opening in existing browser session.
+
+Jan 19, 2020 13:24:15.42 NEW SESSION
+Jan 19, 2020 13:24:15.42 [4442:4463:0119/132415.424378:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 19, 2020 13:24:15.93 Opening in existing browser session.
+Jan 20, 2020 09:30:52.03 [5818:5818:0120/093052.036276:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Jan 20, 2020 09:30:52.04 [5780:5780:0120/093052.040632:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Invalid credentials (credentials rejected by client).
+Jan 20, 2020 09:30:56.25 [5780:5780:0120/093056.259625:ERROR:http_bridge.cc(110)] Not implemented reached in virtual void syncer::HttpBridgeFactory::OnSignalReceived()
+Jan 20, 2020 09:30:56.85 [5780:5801:0120/093056.855885:ERROR:browser_process_sub_thread.cc(221)] Waited 257 ms for network service
+Jan 20, 2020 10:44:30.69 [9111:9132:0120/104430.691525:ERROR:browser_process_sub_thread.cc(221)] Waited 4 ms for network service
+Jan 20, 2020 10:44:30.78 Opening in existing browser session.
+Jan 20, 2020 13:40:10.64 [14955:14976:0120/134010.640164:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 20, 2020 13:40:10.74 Opening in existing browser session.
+Jan 20, 2020 17:35:30.30 Opening in existing browser session.
+Jan 20, 2020 19:59:22.55 [21756:21777:0120/195922.550746:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 20, 2020 19:59:22.68 Opening in existing browser session.
+Jan 20, 2020 20:07:48.62 [22292:22313:0120/200748.626200:ERROR:browser_process_sub_thread.cc(221)] Waited 5 ms for network service
+Jan 20, 2020 20:07:48.65 Opening in existing browser session.
+Jan 20, 2020 20:18:02.75 [23113:23134:0120/201802.752837:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 20, 2020 20:18:02.80 Opening in existing browser session.
+
+Jan 21, 2020 10:17:20.39 NEW SESSION
+Jan 21, 2020 10:17:20.39 [5551:5572:0121/101720.392921:ERROR:browser_process_sub_thread.cc(221)] Waited 10 ms for network service
+Jan 21, 2020 10:17:20.63 Opening in existing browser session.
+Jan 21, 2020 10:20:55.93 [5837:5857:0121/102055.932363:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 21, 2020 10:20:55.98 Opening in existing browser session.
+Jan 21, 2020 10:40:29.44 [7038:7058:0121/104029.444648:ERROR:browser_process_sub_thread.cc(221)] Waited 5 ms for network service
+Jan 21, 2020 10:40:29.53 Opening in existing browser session.
+Jan 21, 2020 10:41:56.88 [7266:7286:0121/104156.889679:ERROR:browser_process_sub_thread.cc(221)] Waited 5 ms for network service
+Jan 21, 2020 10:41:56.96 Opening in existing browser session.
+Jan 21, 2020 10:45:04.47 [7530:7550:0121/104504.475629:ERROR:browser_process_sub_thread.cc(221)] Waited 6 ms for network service
+Jan 21, 2020 10:45:04.54 Opening in existing browser session.
+Jan 21, 2020 10:47:13.32 [7808:7828:0121/104713.324587:ERROR:browser_process_sub_thread.cc(221)] Waited 7 ms for network service
+Jan 21, 2020 10:47:13.38 Opening in existing browser session.
+Jan 21, 2020 10:48:04.86 [8065:8085:0121/104804.862371:ERROR:browser_process_sub_thread.cc(221)] Waited 14 ms for network service
+Jan 21, 2020 10:48:04.91 Opening in existing browser session.
+Jan 21, 2020 14:40:37.26 [12807:12827:0121/144037.265278:ERROR:browser_process_sub_thread.cc(221)] Waited 13 ms for network service
+Jan 21, 2020 14:40:37.35 Opening in existing browser session.
+Jan 21, 2020 14:57:32.30 Opening in existing browser session.
+Jan 21, 2020 16:01:51.87 [15443:15463:0121/160151.874459:ERROR:browser_process_sub_thread.cc(221)] Waited 113 ms for network service
+Jan 21, 2020 16:01:51.91 Opening in existing browser session.
+Jan 21, 2020 16:07:21.45 Opening in existing browser session.
+Jan 21, 2020 16:41:51.97 [16894:16914:0121/164151.977707:ERROR:browser_process_sub_thread.cc(221)] Waited 5 ms for network service
+Jan 21, 2020 16:41:52.02 Opening in existing browser session.
+Jan 21, 2020 18:17:07.49 [19126:19146:0121/181707.497462:ERROR:browser_process_sub_thread.cc(221)] Waited 9 ms for network service
+Jan 21, 2020 18:17:07.51 Opening in existing browser session.
+Jan 21, 2020 18:36:57.57 Opening in existing browser session.
+Jan 21, 2020 18:59:11.05 [20920:20941:0121/185911.059746:ERROR:browser_process_sub_thread.cc(221)] Waited 5 ms for network service
+Jan 21, 2020 18:59:11.09 Opening in existing browser session.
+
+Jan 22, 2020 09:59:04.95 NEW SESSION
+Jan 22, 2020 09:59:04.95 Opening in existing browser session.
+Jan 22, 2020 10:34:38.10 [26191:26211:0122/103438.105748:ERROR:browser_process_sub_thread.cc(221)] Waited 6 ms for network service
+Jan 22, 2020 10:34:38.13 Opening in existing browser session.
+Jan 22, 2020 21:43:44.15 [9324:9347:0122/214344.135854:ERROR:browser_process_sub_thread.cc(221)] Waited 258 ms for network service
+Jan 22, 2020 21:43:44.36 Opening in existing browser session.
+
+Jan 23, 2020 10:35:28.56 NEW SESSION
+Jan 23, 2020 10:35:28.56 [3343:3343:0123/103528.558307:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Jan 23, 2020 10:35:28.82 [3306:3306:0123/103528.686134:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Invalid credentials (credentials rejected by client).
+Jan 23, 2020 10:35:28.83 [3306:3306:0123/103528.686508:ERROR:account_info_fetcher.cc(59)] OnGetTokenFailure: Invalid credentials (credentials rejected by client).
+Jan 23, 2020 10:35:36.25 [3306:3306:0123/103536.253693:ERROR:http_bridge.cc(110)] Not implemented reached in virtual void syncer::HttpBridgeFactory::OnSignalReceived()
+Jan 23, 2020 10:35:36.53 [3306:3306:0123/103536.524217:ERROR:account_info_fetcher.cc(59)] OnGetTokenFailure: Request canceled.
+Jan 23, 2020 10:35:36.79 [3306:3327:0123/103536.798189:ERROR:browser_process_sub_thread.cc(221)] Waited 224 ms for network service
+Jan 23, 2020 12:14:41.74 [6757:6777:0123/121441.749634:ERROR:browser_process_sub_thread.cc(221)] Waited 6 ms for network service
+Jan 23, 2020 12:14:41.89 Opening in existing browser session.
+Jan 23, 2020 12:56:26.39 Opening in existing browser session.
+Jan 23, 2020 13:03:45.40 Opening in existing browser session.
+Jan 23, 2020 13:08:38.80 [8968:8989:0123/130838.809275:ERROR:browser_process_sub_thread.cc(221)] Waited 9 ms for network service
+Jan 23, 2020 13:08:38.86 Opening in existing browser session.
+Jan 23, 2020 13:51:45.52 [10838:10859:0123/135145.523509:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 23, 2020 13:51:45.58 Opening in existing browser session.
+Jan 23, 2020 13:54:38.72 [11084:11084:0123/135438.723491:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Invalid credentials (credentials rejected by client).
+Jan 23, 2020 13:54:38.73 [11122:11122:0123/135438.731565:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Jan 23, 2020 13:54:48.68 [11084:11105:0123/135448.684623:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 13:55:28.65 [11084:11105:0123/135528.654951:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 13:56:37.07 [11084:11105:0123/135637.077142:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 13:56:45.53 [11084:11084:0123/135645.531776:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 13:57:12.08 [11084:11084:0123/135712.084317:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Connection failed (-105).
+Jan 23, 2020 13:57:32.51 [11084:11084:0123/135732.510388:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 13:58:29.75 [11084:11084:0123/135829.757596:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 13:58:36.21 [11084:11105:0123/135836.214406:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 13:59:55.80 [11084:11084:0123/135955.807798:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 14:02:21.47 [11084:11105:0123/140221.471075:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 14:02:44.15 [11084:11084:0123/140244.155235:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 14:05:49.63 [11752:11773:0123/140549.637319:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 23, 2020 14:05:49.68 Opening in existing browser session.
+Jan 23, 2020 14:05:53.65 [11084:11084:0123/140553.652766:ERROR:http_bridge.cc(110)] Not implemented reached in virtual void syncer::HttpBridgeFactory::OnSignalReceived()
+Jan 23, 2020 14:05:54.20 [11084:11105:0123/140554.203640:ERROR:browser_process_sub_thread.cc(221)] Waited 191 ms for network service
+Jan 23, 2020 14:49:16.29 [12703:12703:0123/144916.295630:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Jan 23, 2020 14:49:16.34 [12666:12666:0123/144916.348121:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Invalid credentials (credentials rejected by client).
+Jan 23, 2020 14:49:16.40 [12666:12687:0123/144916.409509:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 14:49:43.12 [12666:12687:0123/144943.122078:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 14:49:52.24 [12666:12666:0123/144952.241622:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Connection failed (-105).
+Jan 23, 2020 14:50:38.41 [12666:12687:0123/145038.418520:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 14:52:38.07 [12666:12687:0123/145238.079545:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 14:56:19.16 [12666:12687:0123/145619.162052:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 15:00:06.04 [12666:12666:0123/150006.041822:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 15:00:34.43 [12666:12666:0123/150034.437888:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 15:01:19.41 [12666:12666:0123/150119.418284:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 15:02:40.10 [12666:12666:0123/150240.106351:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 15:04:05.65 [12666:12687:0123/150405.658430:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 15:06:10.19 [12666:12666:0123/150610.190328:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 15:12:58.79 [12666:12666:0123/151258.771115:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 15:14:15.66 [12666:12687:0123/151415.668992:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 15:23:18.79 [12666:12666:0123/152318.790166:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 15:24:25.68 [12666:12687:0123/152425.680991:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 15:28:35.75 [12666:12666:0123/152835.759693:ERROR:display_info_provider.cc(196)] Not implemented reached in virtual void extensions::DisplayInfoProvider::UpdateDisplayUnitInfoForPlatform(const display::Display &, extensions::api::system_display::DisplayUnitInfo *)
+Jan 23, 2020 15:28:35.80 [12703:12703:0123/152835.802517:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Jan 23, 2020 15:28:39.38 [12666:12666:0123/152839.381500:ERROR:CONSOLE(3)] "Not allowed to load local resource: chrome://resources/css/text_defaults.css", source: chrome-extension://ahjaciijnoiaklcomgnblndopackapon/scope_approval_dialog.html (3)
+Jan 23, 2020 15:28:49.53 [12703:12703:0123/152849.538385:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Jan 23, 2020 15:33:38.81 [12666:12666:0123/153338.814274:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 15:34:35.69 [12666:12687:0123/153435.693784:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 15:36:25.20 [14377:14398:0123/153625.203939:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 23, 2020 15:36:25.44 Opening in existing browser session.
+Jan 23, 2020 15:44:45.73 [12666:12687:0123/154445.732362:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 15:45:31.97 [12666:12666:0123/154531.979646:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 15:49:54.06 [14723:14744:0123/154954.067159:ERROR:browser_process_sub_thread.cc(221)] Waited 5 ms for network service
+Jan 23, 2020 15:49:54.17 Opening in existing browser session.
+Jan 23, 2020 15:54:38.95 [14893:14914:0123/155438.953218:ERROR:browser_process_sub_thread.cc(221)] Waited 6 ms for network service
+Jan 23, 2020 15:54:39.00 Opening in existing browser session.
+Jan 23, 2020 15:54:50.70 [12666:12687:0123/155450.709185:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 15:54:55.27 [15022:15042:0123/155455.279266:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 23, 2020 15:54:55.33 Opening in existing browser session.
+Jan 23, 2020 15:55:33.39 [12666:12666:0123/155533.389707:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 15:58:29.77 [15272:15293:0123/155829.773932:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 23, 2020 15:58:29.92 Opening in existing browser session.
+Jan 23, 2020 15:59:39.77 [15412:15433:0123/155939.770004:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 23, 2020 15:59:39.79 Opening in existing browser session.
+Jan 23, 2020 16:00:05.68 [12703:12703:0123/160005.689457:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Jan 23, 2020 16:05:00.71 [12666:12687:0123/160500.716598:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 16:05:53.41 [12666:12666:0123/160553.411667:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 16:15:10.72 [12666:12687:0123/161510.724153:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 16:15:34.13 [12703:12703:0123/161534.132199:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Jan 23, 2020 16:16:09.83 [12703:12703:0123/161609.832270:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Jan 23, 2020 16:16:13.42 [12666:12666:0123/161613.428571:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 16:17:25.80 [12703:12703:0123/161725.800175:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Jan 23, 2020 16:25:05.85 [12703:12703:0123/162505.852808:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Jan 23, 2020 16:25:20.73 [12666:12687:0123/162520.734339:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 16:26:33.44 [12666:12666:0123/162633.446209:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 16:35:30.74 [12666:12687:0123/163530.744459:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 16:36:53.46 [12666:12666:0123/163653.465945:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 16:45:40.75 [12666:12687:0123/164540.757201:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 16:47:13.48 [12666:12666:0123/164713.480865:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 16:55:50.76 [12666:12687:0123/165550.768100:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 16:57:33.50 [12666:12666:0123/165733.502212:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 16:59:25.30 [17321:17342:0123/165925.304089:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 23, 2020 16:59:25.38 Opening in existing browser session.
+Jan 23, 2020 17:05:06.97 [17640:17661:0123/170506.978958:ERROR:browser_process_sub_thread.cc(221)] Waited 77 ms for network service
+Jan 23, 2020 17:05:07.04 Opening in existing browser session.
+Jan 23, 2020 17:06:00.77 [12666:12687:0123/170600.778691:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 17:07:53.51 [12666:12666:0123/170753.519502:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 17:16:10.78 [12666:12687:0123/171610.788466:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 17:18:13.53 [12666:12666:0123/171813.531351:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 17:26:20.80 [12666:12687:0123/172620.800790:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 17:28:33.54 [12666:12666:0123/172833.546346:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 17:36:30.81 [12666:12687:0123/173630.813322:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 17:38:40.24 [12666:12666:0123/173840.247056:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 17:46:30.89 [12666:12687:0123/174630.899402:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 17:48:40.38 [12666:12666:0123/174840.384774:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 17:56:40.91 [12666:12687:0123/175640.909846:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 17:59:00.39 [12666:12666:0123/175900.399402:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 18:06:40.99 [12666:12687:0123/180640.996035:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 18:09:00.55 [12666:12666:0123/180900.551987:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 18:16:41.08 [12666:12687:0123/181641.086557:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 18:19:00.75 [12666:12666:0123/181900.755698:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 18:26:41.17 [12666:12687:0123/182641.174388:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 18:29:00.93 [12666:12666:0123/182900.929769:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 18:36:41.26 [12666:12687:0123/183641.264872:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 18:39:01.09 [12666:12666:0123/183901.096298:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 18:46:41.35 [12666:12687:0123/184641.353939:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 18:49:01.26 [12666:12666:0123/184901.265175:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 18:56:41.45 [12666:12687:0123/185641.451512:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 18:59:01.55 [12666:12666:0123/185901.557627:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 19:06:42.98 [12666:12687:0123/190642.988179:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 19:09:01.70 [12666:12666:0123/190901.707123:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 19:16:43.09 [12666:12687:0123/191643.097079:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 19:19:02.56 [12666:12666:0123/191902.565018:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 19:26:43.16 [12666:12687:0123/192643.168890:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 19:29:02.71 [12666:12666:0123/192902.718531:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 19:36:43.25 [12666:12687:0123/193643.258470:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 19:39:02.91 [12666:12666:0123/193902.916440:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 19:46:43.34 [12666:12687:0123/194643.348658:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 19:49:03.05 [12666:12666:0123/194903.050142:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 19:56:44.81 [12666:12687:0123/195644.813127:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 19:59:06.27 [12666:12666:0123/195906.277631:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 20:06:51.92 [12666:12687:0123/200651.926733:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 20:09:07.43 [12666:12666:0123/200907.435869:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 20:17:01.93 [12666:12687:0123/201701.935699:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 20:19:07.58 [12666:12666:0123/201907.588890:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 20:21:02.63 [20795:20816:0123/202102.631154:ERROR:browser_process_sub_thread.cc(221)] Waited 5 ms for network service
+Jan 23, 2020 20:21:02.78 Opening in existing browser session.
+Jan 23, 2020 20:27:02.01 [12666:12687:0123/202702.010781:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 20:29:07.72 [12666:12666:0123/202907.727488:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 20:37:02.09 [12666:12687:0123/203702.099558:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 20:39:07.88 [12666:12666:0123/203907.889605:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 20:47:02.20 [12666:12687:0123/204702.200081:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 20:49:08.07 [12666:12666:0123/204908.072836:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 20:57:02.26 [12666:12687:0123/205702.269452:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 20:59:08.23 [12666:12666:0123/205908.234089:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 21:07:02.36 [12666:12687:0123/210702.365278:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 21:09:08.40 [12666:12666:0123/210908.404400:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 21:17:02.45 [12666:12687:0123/211702.456571:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 21:19:08.57 [12666:12666:0123/211908.570666:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 21:27:02.55 [12666:12687:0123/212702.551292:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 21:29:08.73 [12666:12666:0123/212908.733084:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 21:37:02.62 [12666:12687:0123/213702.629715:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 21:39:08.87 [12666:12666:0123/213908.876445:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 21:47:02.74 [12666:12687:0123/214702.745731:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 21:49:09.67 [12666:12666:0123/214909.674217:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 21:57:02.93 [12666:12687:0123/215702.935548:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 21:59:09.95 [12666:12666:0123/215909.956951:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 22:00:15.41 [24479:24502:0123/220015.417482:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 23, 2020 22:00:15.47 Opening in existing browser session.
+Jan 23, 2020 22:07:03.54 [12666:12687:0123/220703.545989:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 22:09:10.28 [12666:12666:0123/220910.287491:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 22:17:03.75 [12666:12687:0123/221703.758397:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 22:19:10.63 [12666:12666:0123/221910.636413:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 22:27:03.90 [12666:12687:0123/222703.901415:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 22:29:10.84 [12666:12666:0123/222910.842400:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 22:37:04.09 [12666:12687:0123/223704.097402:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 22:39:11.36 [12666:12666:0123/223911.360754:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 22:47:04.32 [12666:12687:0123/224704.322771:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 22:49:11.55 [12666:12666:0123/224911.556524:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 22:50:52.84 Opening in existing browser session.
+Jan 23, 2020 22:57:04.41 [12666:12687:0123/225704.413450:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 22:59:11.72 [12666:12666:0123/225911.721382:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 23:07:04.49 [12666:12687:0123/230704.492459:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 23:09:12.32 [12666:12666:0123/230912.323400:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 23:17:04.55 [12666:12687:0123/231704.559406:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 23:19:12.45 [12666:12666:0123/231912.456207:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 23:20:48.91 [12703:12703:0123/232048.919352:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Jan 23, 2020 23:27:04.63 [12666:12687:0123/232704.637216:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 23:29:12.63 [12666:12666:0123/232912.630460:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 23:35:38.10 [12703:12703:0123/233538.108095:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Jan 23, 2020 23:35:42.61 [12703:12703:0123/233542.618910:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Jan 23, 2020 23:37:04.73 [12666:12687:0123/233704.730037:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 23:39:12.78 [12666:12666:0123/233912.781488:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 23:43:10.38 [12703:12703:0123/234310.388469:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Jan 23, 2020 23:47:04.82 [12666:12687:0123/234704.825096:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 23:49:12.98 [12666:12666:0123/234912.981726:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 23, 2020 23:57:05.19 [12666:12687:0123/235705.190858:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 23, 2020 23:59:13.83 [12666:12666:0123/235913.837358:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 24, 2020 24:07:05.28 [12666:12687:0124/000705.280450:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 24, 2020 24:08:48.79 [12666:12687:0124/000848.798857:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+Jan 24, 2020 24:09:21.93 [12666:12687:0124/000921.936460:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 24, 2020 24:09:33.55 [12666:12666:0124/000933.552668:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 24, 2020 24:09:35.54 [12666:12687:0124/000935.549558:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 24, 2020 24:10:24.26 [12666:12687:0124/001024.269229:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+Jan 24, 2020 24:10:38.86 [12666:12687:0124/001038.868472:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 24, 2020 24:13:43.72 [12703:12703:0124/001343.729151:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Jan 24, 2020 24:13:53.19 [12703:12703:0124/001353.195347:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Jan 24, 2020 24:15:07.01 [12666:12666:0124/001507.012402:ERROR:http_bridge.cc(110)] Not implemented reached in virtual void syncer::HttpBridgeFactory::OnSignalReceived()
+Jan 24, 2020 24:15:07.32 [12666:12687:0124/001507.320427:ERROR:browser_process_sub_thread.cc(221)] Waited 158 ms for network service
+
+Jan 24, 2020 10:46:14.41 NEW SESSION
+Jan 24, 2020 10:46:14.42 [3426:3426:0124/104614.415847:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Invalid credentials (credentials rejected by client).
+Jan 24, 2020 10:46:14.60 [3426:3426:0124/104614.416299:ERROR:account_info_fetcher.cc(59)] OnGetTokenFailure: Invalid credentials (credentials rejected by client).
+Jan 24, 2020 10:46:14.61 [3462:3462:0124/104614.521761:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Jan 24, 2020 10:46:23.13 [3426:3447:0124/104623.130155:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 24, 2020 10:46:58.91 [3426:3447:0124/104658.916771:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 24, 2020 10:47:54.03 [3426:3447:0124/104754.038969:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 24, 2020 10:48:42.61 [3426:3426:0124/104842.613134:ERROR:account_info_fetcher.cc(59)] OnGetTokenFailure: Connection failed (-105).
+Jan 24, 2020 10:48:42.61 [3426:3426:0124/104842.613242:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Connection failed (-105).
+Jan 24, 2020 10:49:33.41 [3426:3447:0124/104933.415273:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 24, 2020 10:53:18.39 [3426:3447:0124/105318.396054:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 24, 2020 10:53:28.56 [3426:3426:0124/105328.533345:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 24, 2020 10:54:12.41 [3426:3426:0124/105412.412958:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 24, 2020 10:55:16.89 [3426:3426:0124/105516.893399:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 24, 2020 10:57:34.11 [3426:3426:0124/105734.110297:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 24, 2020 11:00:17.51 [3426:3447:0124/110017.516713:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -105
+Jan 24, 2020 11:00:42.18 [3426:3426:0124/110042.186661:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 24, 2020 11:07:28.86 [3426:3426:0124/110728.863794:ERROR:http_bridge.cc(110)] Not implemented reached in virtual void syncer::HttpBridgeFactory::OnSignalReceived()
+Jan 24, 2020 11:07:29.27 [3426:3447:0124/110729.271405:ERROR:browser_process_sub_thread.cc(221)] Waited 159 ms for network service
+Jan 24, 2020 11:19:39.14 Opening in existing browser session.
+Jan 24, 2020 11:22:09.58 Opening in existing browser session.
+Jan 24, 2020 11:27:54.55 Opening in existing browser session.
+Jan 24, 2020 14:27:30.18 Opening in existing browser session.
+Jan 24, 2020 14:30:00.84 [10080:10101:0124/143000.844582:ERROR:browser_process_sub_thread.cc(221)] Waited 9 ms for network service
+Jan 24, 2020 14:30:00.89 Opening in existing browser session.
+Jan 24, 2020 15:50:08.19 [12520:12541:0124/155008.195847:ERROR:browser_process_sub_thread.cc(221)] Waited 5 ms for network service
+Jan 24, 2020 15:50:08.39 Opening in existing browser session.
+Jan 24, 2020 15:59:13.57 Opening in existing browser session.
+Jan 24, 2020 19:12:26.92 [15222:15243:0124/191226.922229:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 24, 2020 19:12:26.96 Opening in existing browser session.
+Jan 24, 2020 20:15:02.68 [17244:17265:0124/201502.688070:ERROR:browser_process_sub_thread.cc(221)] Waited 5 ms for network service
+Jan 24, 2020 20:15:02.71 Opening in existing browser session.
+Jan 24, 2020 20:22:31.31 [17584:17605:0124/202231.317557:ERROR:browser_process_sub_thread.cc(221)] Waited 1 ms for network service
+Jan 24, 2020 20:22:31.48 Opening in existing browser session.
+Jan 24, 2020 22:17:38.66 Opening in existing browser session.
+Jan 24, 2020 23:06:49.93 [24911:24933:0124/230649.935083:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 24, 2020 23:06:50.01 Opening in existing browser session.
+Jan 24, 2020 23:25:23.70 Opening in existing browser session.
+
+Jan 25, 2020 10:56:55.74 NEW SESSION
+Jan 25, 2020 10:56:55.75 Opening in existing browser session.
+
+Jan 25, 2020 11:27:54.60 NEW SESSION
+Jan 25, 2020 11:27:54.60 [5865:5887:0125/112754.601299:ERROR:browser_process_sub_thread.cc(221)] Waited 322 ms for network service
+Jan 25, 2020 11:27:54.75 Opening in existing browser session.
+Jan 25, 2020 12:14:47.44 Opening in existing browser session.
+Jan 25, 2020 12:34:49.58 Opening in existing browser session.
+Jan 26, 2020 10:18:36.25 [12389:12410:0126/101836.258611:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 26, 2020 10:18:36.30 Opening in existing browser session.
+Jan 26, 2020 11:36:07.10 [14231:14252:0126/113607.102434:ERROR:browser_process_sub_thread.cc(221)] Waited 7 ms for network service
+Jan 26, 2020 11:36:07.16 Opening in existing browser session.
+Jan 26, 2020 11:52:58.69 [14974:14995:0126/115258.696891:ERROR:browser_process_sub_thread.cc(221)] Waited 5 ms for network service
+Jan 26, 2020 11:52:58.75 Opening in existing browser session.
+Jan 26, 2020 12:06:04.01 [15324:15345:0126/120604.010368:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 26, 2020 12:06:04.08 Opening in existing browser session.
+Jan 26, 2020 12:15:21.92 [16102:16123:0126/121521.928182:ERROR:browser_process_sub_thread.cc(221)] Waited 7 ms for network service
+Jan 26, 2020 12:15:22.01 Opening in existing browser session.
+Jan 26, 2020 12:32:57.33 [16452:16473:0126/123257.336637:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 26, 2020 12:32:57.37 Opening in existing browser session.
+Jan 26, 2020 12:56:03.35 [17142:17164:0126/125603.352333:ERROR:browser_process_sub_thread.cc(221)] Waited 7 ms for network service
+Jan 26, 2020 12:56:03.40 Opening in existing browser session.
+Jan 26, 2020 13:16:38.19 [17689:17710:0126/131638.192597:ERROR:browser_process_sub_thread.cc(221)] Waited 5 ms for network service
+Jan 26, 2020 13:16:38.24 Opening in existing browser session.
+Jan 26, 2020 14:25:29.60 Opening in existing browser session.
+Jan 26, 2020 15:11:03.13 [20470:20491:0126/151103.132372:ERROR:browser_process_sub_thread.cc(221)] Waited 1 ms for network service
+Jan 26, 2020 15:11:03.18 Opening in existing browser session.
+Jan 26, 2020 15:12:28.44 [20881:20901:0126/151228.446532:ERROR:browser_process_sub_thread.cc(221)] Waited 5 ms for network service
+Jan 26, 2020 15:12:28.48 Opening in existing browser session.
+Jan 27, 2020 01:24:28.01 [9703:9726:0127/012428.004504:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 27, 2020 01:24:28.18 Opening in existing browser session.
+Jan 27, 2020 10:13:44.10 [14719:14744:0127/101344.098672:ERROR:browser_process_sub_thread.cc(221)] Waited 5 ms for network service
+Jan 27, 2020 10:13:44.15 Opening in existing browser session.

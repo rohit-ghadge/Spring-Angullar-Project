@@ -1,0 +1,30 @@
+<tr style="text-align: end"><a class="btn btn-info" routerLink="/admin" role="button">Back to Main service list</a></tr>
+<nav class="navbar navbar-default navbar-static-top" role="navigation">
+  <ul class="nav navbar-nav">
+    <li class="active">
+      <a routerLink="/addsubservices">Add Sub-Services</a>
+    </li>
+  </ul>
+</nav>
+<div class="table-responsive">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>ServiceName</th>
+        <th>Description</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor = "let s of services">
+        <td>{{s.subServiceName}}</td>
+        <td>{{s.serviceDesc}}</td>
+        <td>{{s.amount}}</td>
+        <td><button type="button" (click)="updateSubService(s.id)" class="btn btn-info">Update</button></td>
+        <td><button type="button" (click)="deleteSubService(s.id)"class="btn btn-danger">Delete</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+

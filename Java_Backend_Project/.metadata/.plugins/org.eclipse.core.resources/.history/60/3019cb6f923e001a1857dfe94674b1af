@@ -1,0 +1,39 @@
+package com.app.dao;
+
+import java.util.List;
+
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.app.pojos.BookingPojo;
+import com.app.pojos.ServicePojo;
+
+@Service
+@Transactional
+public class BookingDao implements IBookingDao {
+	@Autowired
+	SessionFactory sf;
+
+	public BookingDao() {
+		System.out.println("in booking dao");
+	}
+	@Override
+	public Integer registerBooking(BookingPojo booking) {
+		
+			System.out.println(booking.getId());
+			sf.getCurrentSession().save(booking);
+			return booking.getId();
+	}
+	@Override
+	public List<BookingPojo> getUserBookedServices(String email) 
+	{
+		System.out.println(email);
+		String jpql="select b from BookingPojo b where b.email=:em";
+		return sf.getCurrentSession().createQuery(jpql, BookingPojo.class).setParameter("em", email).getResultList();
+	}
+
+	
+
+}

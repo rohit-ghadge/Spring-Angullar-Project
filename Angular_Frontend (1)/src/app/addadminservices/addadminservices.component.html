@@ -1,0 +1,12 @@
+<tr style="text-align: end"><a class="btn btn-info" routerLink="/admin" role="button">Back to Main service list</a></tr>
+<form #myForm="ngForm" (ngSubmit)="addnewservices(myForm)" role="form">
+  <legend>Add Main Services</legend>
+
+  <div class="form-group">
+    <label for="">Name New Service</label>
+    <input ngModel name="newmainservices" type="text" class="form-control" id="">
+  </div>
+
+
+  <button type="submit" class="btn btn-info">Submit</button>
+</form>

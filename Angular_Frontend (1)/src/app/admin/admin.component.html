@@ -1,0 +1,38 @@
+<div  style="text-align: center" >
+    <span><h3 style="background-color: blanchedalmond;text-decoration-line: underline;color: red">Welcome  {{this.email}}</h3></span>
+  </div>
+<nav class="navbar navbar-default navbar-static-top" role="navigation">
+  <ul class="nav navbar-nav">
+    <li class="active">
+      <a routerLink="/addadminservices">Add Services</a>
+    </li>
+    <li class="active">
+      <a routerLink="/listuserforadmin">List User</a>
+    </li>
+  </ul>
+</nav>
+<div class="table-responsive">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+       <td>No</td>
+       <td>Services</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let s of services">
+        <td>{{s.id}}</td>
+        <td>{{s.serviceName}}</td> 
+        <!-- <td><a routerLink="/subservice">Manage Sub Services</a></td> -->
+        <td><button type="button" class="btn btn-info" (click)="manageServices(s.id)">Manage services</button></td>
+        <td><button type="button" (click)="deleteService(s.id)"class="btn btn-danger">Delete</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- serviceName -> same as database table -->
+
+
+  <router-outlet></router-outlet>
+

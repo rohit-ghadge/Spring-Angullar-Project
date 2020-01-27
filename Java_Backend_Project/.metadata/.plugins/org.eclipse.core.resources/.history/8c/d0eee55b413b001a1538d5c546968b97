@@ -1,0 +1,63 @@
+package com.app.dao;
+
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.app.pojos.ServicePojo;
+
+
+@Repository
+@Transactional
+public class AdminDao implements IAdminDao
+{	
+	@Autowired
+	private SessionFactory sf;
+
+	@Override
+	public List<ServicePojo> getAllMainServices() 
+	{
+		String jpql = "select s from SubServicePojo s";
+		return sf.getCurrentSession().createQuery(jpql, ServicePojo.class).getResultList();
+	}
+//
+//	@Override
+//	public ServicePojo getMainService(int id) 
+//	{
+//		String jpql="select s from ServicePojo s where s.id=:id";
+//		return sf.getCurrentSession().createQuery(jpql, MainServicePojo.class).setParameter("id", id).getSingleResult();
+//	}
+
+	@Override
+	public String addMainService(ServicePojo MainService)
+	{
+		sf.getCurrentSession().save(MainService);
+		return "SubService added Successfully..!!" +MainService.getId();
+	}
+
+	@Override
+	public ServicePojo updateMainService(ServicePojo MainService) 
+	{
+//		Session hs = sf.getCurrentSession();
+//		hs.clear();
+		System.out.println("inside update service"+MainService);
+		sf.getCurrentSession().update(MainService);
+		//hs.update(subService);
+		return MainService;
+	}
+	
+	@Override
+	public String deleteMainService(ServicePojo MainService)
+	{
+		sf.getCurrentSession().delete(MainService);
+		return "SubService deleted successfully..!!";
+	}
+
+	
+	
+
+}

@@ -1,0 +1,57 @@
+package com.app.pojos;
+
+import java.util.Date;
+import java.util.List;
+
+import javax.persistence.*;
+
+@Entity
+public class MemShipDetailsPojo extends AbstractEntity
+{
+	private Date memShipDate;
+	private Float amount;
+	private List<UserPojo> memShipDetails;
+	
+	public MemShipDetailsPojo() {
+		System.out.println("inside MemDetails");
+	}
+	
+	public MemShipDetailsPojo(Date memShipDate, Float amount, List<UserPojo> memShipDetails) {
+		super();
+		this.memShipDate = memShipDate;
+		this.amount = amount;
+		this.memShipDetails = memShipDetails;
+	}
+
+	public Date getMemShipDate() {
+		return memShipDate;
+	}
+	public void setMemShipDate(Date memShipDate) {
+		this.memShipDate = memShipDate;
+	}
+	public Float getAmount() {
+		return amount;
+	}
+	public void setAmount(Float amount) {
+		this.amount = amount;
+	}
+	@OneToMany(mappedBy = "memShipDetail", cascade = CascadeType.MERGE, orphanRemoval = true)
+	@JoinColumn(name = "user")
+	public List<UserPojo> getMemShipDetails() {
+		return memShipDetails;
+	}
+
+	public void setMemShipDetails(List<UserPojo> memShipDetails) {
+		this.memShipDetails = memShipDetails;
+	}
+
+	@Override
+	public String toString() {
+		return "MemShipDetailsPojo [memShipDate=" + memShipDate + ", amount=" + amount + "]";
+	}
+	
+	
+	
+	
+	
+}

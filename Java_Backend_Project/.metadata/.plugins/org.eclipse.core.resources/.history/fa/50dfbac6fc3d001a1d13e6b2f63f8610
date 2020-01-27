@@ -1,0 +1,51 @@
+package com.app.dao;
+
+import java.util.List;
+
+import com.app.pojos.UserPojo;
+
+public class BookingDao implements IUserDao {
+
+	@Override
+	public Integer registerUser(UserPojo user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public UserPojo login(UserPojo user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public UserPojo findByEmail(String email) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int generateOtp() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void UpdateOtp(int otp, UserPojo u) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public UserPojo validateUser(UserPojo user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<UserPojo> getAllUsers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

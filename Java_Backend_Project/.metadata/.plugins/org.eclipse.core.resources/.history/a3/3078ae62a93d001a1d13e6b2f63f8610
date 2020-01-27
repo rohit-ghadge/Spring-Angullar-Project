@@ -1,0 +1,33 @@
+package com.app.pojos;
+
+import javax.persistence.*;
+
+@Entity
+public class MembershipPojo extends AbstractEntity
+{
+	String memName;
+	
+	public MembershipPojo() {
+		System.out.println("inside mem pojo");
+	}
+
+	public MembershipPojo(String memName) {
+		super();
+		this.memName = memName;
+	}
+
+	public String getMemName() {
+		return memName;
+	}
+
+	public void setMemName(String memName) {
+		this.memName = memName;
+	}
+
+	@Override
+	public String toString() {
+		return "MembershipPojo [memName=" + memName + "]";
+	}
+	
+	
+}

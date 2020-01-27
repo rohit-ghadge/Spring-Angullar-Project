@@ -1,0 +1,16 @@
+package com.app.dao;
+
+import java.util.List;
+
+import com.app.pojos.BookingPojo;
+
+public interface IBookingDao 
+{
+	public Integer registerBooking(BookingPojo book);
+	
+	public List<BookingPojo> getUserBookedServices(int id);//id=> userId
+	
+	public Integer deleteBooking(int id);
+	
+	public BookingPojo getsubserviceId(int id);//id=> subserviceId
+}

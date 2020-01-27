@@ -1,0 +1,55 @@
+package com.app.dao;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Formatter;
+import java.util.List;
+
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.app.pojos.BookingPojo;
+import com.app.pojos.ServicePojo;
+import com.app.pojos.SubServicePojo;
+
+@Service
+@Transactional
+public class BookingDao implements IBookingDao {
+	@Autowired
+	SessionFactory sf;
+
+	public BookingDao() {
+		System.out.println("in booking dao");
+	}
+	
+	@Override
+	public Integer registerBooking(BookingPojo book)
+	{
+		
+		System.out.println("in booking dao"+book);
+		sf.getCurrentSession().save(book);
+		return book.getId();
+	}
+	
+	
+	
+	
+	
+//	@Override
+//	public List<BookingPojo> getUserBookedServices(int id) 
+//	{
+//		System.out.println(id);
+//		
+//		BookingPojo b = new BookingPojo();
+//		Date date = new Date();
+//		b.setDateTime(date);
+//
+//		String jpql="select b from BookingPojo b where b.id=:id";
+//		return sf.getCurrentSession().createQuery(jpql, BookingPojo.class).setParameter("id", id).getResultList();
+//	}
+
+	
+
+}

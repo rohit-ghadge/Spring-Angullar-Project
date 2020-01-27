@@ -1,0 +1,8 @@
+127.0.0.1 - - [19/Jan/2020:13:24:12 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [19/Jan/2020:13:24:16 +0530] "GET /DacAug19/ HTTP/1.1" 200 141
+0:0:0:0:0:0:0:1 - - [19/Jan/2020:13:24:20 +0530] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [19/Jan/2020:13:25:14 +0530] "GET /DacAug19/user/isEmailExist/samikshaghugare123@gmail.com HTTP/1.1" 200 3
+0:0:0:0:0:0:0:1 - - [19/Jan/2020:13:26:00 +0530] "OPTIONS /DacAug19/user/login/ HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [19/Jan/2020:13:26:00 +0530] "POST /DacAug19/user/login/ HTTP/1.1" 200 197
+0:0:0:0:0:0:0:1 - - [19/Jan/2020:13:27:02 +0530] "GET /DacAug19/user/isEmailExist/shivamkale17@gmail.com HTTP/1.1" 200 3
+0:0:0:0:0:0:0:1 - - [19/Jan/2020:13:27:19 +0530] "POST /DacAug19/user/login/ HTTP/1.1" 200 177

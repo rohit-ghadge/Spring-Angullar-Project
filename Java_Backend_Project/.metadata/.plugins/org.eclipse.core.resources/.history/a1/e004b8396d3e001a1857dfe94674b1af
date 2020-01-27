@@ -1,0 +1,77 @@
+package com.app.pojos;
+import java.util.Date;
+
+
+import javax.persistence.*;
+
+@Entity
+public class BookingPojo extends AbstractEntity
+{
+	private boolean status;
+	private Date dateTime;
+	private float serviceAmount;
+	private UserPojo user;
+	private SubServicePojo service;
+	
+	public BookingPojo() {
+		System.out.println("inside bookin pojo");
+	}
+	
+	public BookingPojo(boolean status, Date dateTime, float serviceAmount) {
+		super();
+		this.status = status;
+		this.dateTime = dateTime;
+		this.serviceAmount= serviceAmount;
+	}
+
+	public boolean isStatus() {
+		return status;
+	}
+
+	public void setStatus(boolean status) {
+		this.status = status;
+	}
+	@Temporal(TemporalType.TIMESTAMP)
+	public Date getDateTime() {
+		return dateTime;
+	}
+
+	public void setDateTime(Date dateTime) {
+		this.dateTime = dateTime;
+	}
+	
+	@ManyToOne(fetch = FetchType.EAGER)
+	@JoinColumn(name = "userId")
+	public UserPojo getUser() {
+		return user;
+	}
+
+	public void setUser(UserPojo user) {
+		this.user = user;
+	}
+	
+	@ManyToOne(fetch = FetchType.EAGER)
+	@JoinColumn(name = "serviceId")
+	public SubServicePojo getService() {
+		return service;
+	}
+
+	public void setService(SubServicePojo service) {
+		this.service = service;
+	}
+	
+
+	public float getServiceAmount() {
+		return serviceAmount;
+	}
+
+	public void setServiceAmount(float serviceAmount) {
+		this.serviceAmount = serviceAmount;
+	}
+
+	@Override
+	public String toString() {
+		return "BookingPojo [status=" + status + ", dateTime=" + dateTime + ", serviceAmount=" + serviceAmount
+				+ ", user=" + user + ", service=" + service + "]";
+	}
+}

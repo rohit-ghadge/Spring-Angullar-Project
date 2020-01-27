@@ -1,0 +1,44 @@
+<div style="background-image: url('assets/images/project1.jpg')">
+    <td><a class="btn btn-primary" routerLink="/viewcart" role="button">view cart</a></td>
+
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+        <div  style="text-align: center" >
+            <span><h3 style="background-color: blanchedalmond;text-decoration-line: underline;color: red">Welcome  {{this.email}}</h3></span>
+          </div>
+      <ul class="nav navbar-nav">
+      </ul>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="table-responsive">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+           <!-- <td>No</td> -->
+           <td style="text-align: center">Services</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let s of services">
+            <!-- <td> {{s.id}}</td> -->
+            <td style="text-align: center"><a routerLink="/usersubservice" (click)="getSubServices(s.id)"> {{s.serviceName}}</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    <br>
+    <br>
+    </div>
+    
+    
+    
+      <router-outlet></router-outlet>
+    
+    
+</div>

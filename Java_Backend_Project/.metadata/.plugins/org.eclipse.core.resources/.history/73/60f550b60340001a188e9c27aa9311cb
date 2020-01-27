@@ -1,0 +1,95 @@
+package com.app.controller;
+
+import static org.springframework.http.HttpStatus.CREATED;
+import static org.springframework.http.HttpStatus.INTERNAL_SERVER_ERROR;
+import static org.springframework.http.HttpStatus.NOT_FOUND;
+import static org.springframework.http.HttpStatus.NO_CONTENT;
+import static org.springframework.http.HttpStatus.OK;
+
+import java.util.Date;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.app.dao.IBookingDao;
+
+import com.app.pojos.BookingPojo;
+import com.app.pojos.ServicePojo;
+import com.app.pojos.SubServicePojo;
+import com.app.pojos.UserPojo;
+
+@CrossOrigin(allowedHeaders = "*")
+@RestController
+@RequestMapping("/booking")
+public class BookingController {
+
+	@Autowired
+	IBookingDao ibookdao;
+
+	public BookingController() {
+		System.out.println("inside BookingController");
+	}
+
+	@PostMapping
+	public ResponseEntity<Integer> addNewSubService(@RequestBody BookingPojo book) {
+		System.out.println("in add booking " + book.getUser());
+		Date date = new Date();
+		book.setDateTime(date);
+		UserPojo u = new UserPojo();
+		System.out.println("ID : "+book.getUser().getId());
+		u.setId(book.getUser().getId());
+		book.setUser(u);
+		try {
+			return new ResponseEntity<Integer>(ibookdao.registerBooking(book), CREATED);
+		} catch (RuntimeException e1) {
+			return new ResponseEntity<Integer>(0, INTERNAL_SERVER_ERROR);
+		}
+	}
+	//here if id is a foriegn Key then we have to get and set it first 
+	@GetMapping("/{id}")
+	public ResponseEntity<?> getServicesWrtUser(@PathVariable int id) 
+	{
+		System.out.println("in get all user booked Services");
+		System.out.println(id);
+		List<BookingPojo> list = ibookdao.getUserBookedServices(id);
+	if (list.isEmpty())
+		return new ResponseEntity<String>("No Services ", NO_CONTENT);
+	return new ResponseEntity<List<BookingPojo>>(list, OK);
+	}
+
+	@DeleteMapping("/{id}")
+	public ResponseEntity<?> deleteBooking(@PathVariable int id)
+	{
+		System.out.println("in delete booking contr"+id);
+		try {
+			if (id == 0)
+					throw new RuntimeException("service ID invalid");
+//				else
+//				{
+//					BookingPojo boo = new BookingPojo();
+//					SubServicePojo u = new SubServicePojo();
+//					System.out.println("after getting...-----------"+boo.getUser());
+//					u.setId(boo.getUser().getId());
+//					boo.setService(u);
+//					System.out.println("subservice id taken in booking"+boo);
+//					BookingPojo book = ibookdao.getsubserviceId(id);
+					return new ResponseEntity<Integer>(ibookdao.deleteBooking(id), OK);
+					
+				}
+		} catch (RuntimeException e1) {
+				e1.printStackTrace();
+				return new ResponseEntity<Integer>(0, NOT_FOUND);
+			}
+		
+	}
+}

@@ -1,0 +1,124 @@
+package com.app.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.mail.MailException;
+import org.springframework.mail.SimpleMailMessage;
+import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
+import static org.springframework.http.HttpStatus.*;
+
+import javax.persistence.*;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+
+import com.app.dao.IUserDao;
+import com.app.pojos.EUserRole;
+import com.app.pojos.UserPojo;
+
+@CrossOrigin(allowedHeaders = "*")
+@RestController
+@RequestMapping("/user")
+public class UserController {
+	@Autowired
+	IUserDao iuserdao;
+
+	@Autowired
+	private JavaMailSender mailsender;
+	
+	public UserController() {
+		System.out.println("inside usercontroler");
+	}
+
+	@PostMapping("/login")
+	public UserPojo processLoginForm(@RequestBody UserPojo user,HttpSession hs,RedirectAttributes flashMap) {
+		System.out.println(user);
+		// invoke Dao's method
+		UserPojo udb = iuserdao.validateUser(user);
+		
+//		// valid login -- store mesg(last action taken) under flash scope (till next request)
+//		flashMap.addFlashAttribute("mesg", "Login Successful : "+udb.getRole());
+//		
+//		//add validated user dtls under sesison scope to be remembered till logout
+//		hs.setAttribute("user_dtls", udb);
+		
+		System.out.println(udb.getOtp() + "  " + user.getOtp());
+		if (udb.getOtp().equals(user.getOtp())) 
+		{
+//			//check role
+//			if(udb.getRole().equals(EUserRole.ADMIN))
+//				return "redirect:/admin/list";
+//			if(udb.getRole().equals(EUserRole.CUSTOMER))
+//				return "redirect:/customer/list";
+//			return "redirect:/login";
+			return udb;
+		}
+		return null;
+	}
+
+	@PostMapping("/register")
+	Integer registeruser(@RequestBody UserPojo u) {
+		System.out.println(u);
+
+		if (iuserdao.registerUser(u) != 0) {
+			String msg = "You are registered succesfully";
+			SimpleMailMessage mailMessage = new SimpleMailMessage();
+			mailMessage.setTo(u.getEmail());
+			mailMessage.setSubject("One Time Password");
+			mailMessage.setText(msg);
+			try {
+				mailsender.send(mailMessage);
+				return 1;
+			} catch (MailException e) {
+				System.out.println("inside mail exception");
+				e.printStackTrace();
+			}
+		}
+		return 0;
+	}
+
+
+	@GetMapping("/isEmailExist/{email:.+}")
+	@ResponseBody
+	public String otpGeneration(@PathVariable("email") String email) {
+		System.out.println("in mail " + email);
+
+		UserPojo user;
+		try {
+			user = iuserdao.findByEmail(email);
+			System.out.println(user);
+			if (user != null) {
+				int otp = iuserdao.generateOtp();
+				System.out.println("generated otp method called");
+				iuserdao.UpdateOtp(otp, user);
+				String msg = "Your one time password for login to service@door is " + otp;
+				SimpleMailMessage mailMessage = new SimpleMailMessage();
+				mailMessage.setTo(user.getEmail());
+				mailMessage.setSubject("One Time Password");
+				mailMessage.setText(msg);
+				try {
+					mailsender.send(mailMessage);
+				} catch (MailException e) {
+					System.out.println("inside mail exception");
+					e.printStackTrace();
+				}
+				return "otp";
+			}
+		} catch (NoResultException e) {
+
+			e.printStackTrace();
+		}
+		return "send successfully";
+
+	}
+
+	
+}

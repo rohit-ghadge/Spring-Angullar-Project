@@ -1,0 +1,63 @@
+package com.app.pojos;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.persistence.*;
+
+@Entity
+public class MembershipPojo extends AbstractEntity
+{
+	private String memShipName;
+	private List<MemShipDetailsPojo> memDetailList = new ArrayList<MemShipDetailsPojo>();
+	private UserPojo userMemShip;
+	
+	public MembershipPojo() {
+		System.out.println("inside mem pojo");
+	}
+
+	public MembershipPojo(String memShipName, List<MemShipDetailsPojo> memDetailList, UserPojo userMemShip) {
+		super();
+		this.memShipName = memShipName;
+		this.memDetailList = memDetailList;
+		this.userMemShip = userMemShip;
+	}
+
+
+	public String getMemShipName() {
+		return memShipName;
+	}
+
+	public void setMemShipName(String memShipName) {
+		this.memShipName = memShipName;
+	}
+	@OneToOne(mappedBy = "userMemShip", cascade = CascadeType.MERGE, orphanRemoval = true)
+	public UserPojo getUserMemShip() {
+		return userMemShip;
+	}
+
+	public void setUserMemShip(UserPojo userMemShip) {
+		this.userMemShip = userMemShip;
+	}
+
+	@OneToMany(mappedBy = "memShip", cascade = CascadeType.MERGE, orphanRemoval = true)
+	public List<MemShipDetailsPojo> getMemDetailList() {
+		return memDetailList;
+	}
+
+	public void setMemDetailList(List<MemShipDetailsPojo> memDetailList) {
+		this.memDetailList = memDetailList;
+	}
+
+	@Override
+	public String toString() {
+		return "MembershipPojo [memShipName=" + memShipName + ", memDetailList=" + memDetailList + "]";
+	}
+
+	
+	
+
+
+	
+	
+}

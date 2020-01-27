@@ -1,0 +1,7 @@
+package com.app.dao;
+
+import com.app.pojos.BookingPojo;
+
+public class IBookingDao {
+	
+}

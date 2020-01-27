@@ -1,0 +1,31 @@
+<div style="background-image: url('assets/images/project35.jpg')">
+    <td><a class="btn btn-primary" routerLink="/usersubservice" role="button">Back</a></td>
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>Service</th>
+          <th>price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor = "let c of cart">
+          <td>{{c.service.subServiceName}}</td>
+          <td>{{c.serviceAmount}}</td>
+          <td><a class="btn btn-primary" (click)="deleteService(c.id)" role="button">Delete</a></td>
+        </tr>
+        <tr>
+          {{getTotal}}
+        </tr>
+      </tbody>
+      <tr><a routerLink="/paymentgate">payment Gateway</a></tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</div>

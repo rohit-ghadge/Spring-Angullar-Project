@@ -1,0 +1,31 @@
+package com.app.dao;
+
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.app.pojos.BookingPojo;
+
+@Service
+@Transactional
+public class BookingDao implements IBookingDao {
+	@Autowired
+	SessionFactory sf;
+
+	public BookingDao() {
+		System.out.println("in user dao");
+	}
+	@Override
+	public Integer registerBooking(BookingPojo booking) {
+		
+			System.out.println(booking.getId());
+			sf.getCurrentSession().save(booking);
+			return booking.getId();
+		
+
+	}
+
+	
+
+}

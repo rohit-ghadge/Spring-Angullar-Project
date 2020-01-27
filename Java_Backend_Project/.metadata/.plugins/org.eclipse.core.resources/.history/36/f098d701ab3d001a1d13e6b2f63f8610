@@ -1,0 +1,52 @@
+package com.app.pojos;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.persistence.*;
+
+@Entity
+public class MembershipPojo extends AbstractEntity
+{
+	private String memShipName;
+	private List<MemShipDetailsPojo> memDetailList = new ArrayList<MemShipDetailsPojo>();
+	
+	public MembershipPojo() {
+		System.out.println("inside mem pojo");
+	}
+
+	public MembershipPojo(String memShipName) {
+		super();
+		this.memShipName = memShipName;
+	}
+
+	public String getMemShipName() {
+		return memShipName;
+	}
+
+	public void setMemShipName(String memShipName) {
+		this.memShipName = memShipName;
+	}
+	
+	
+
+	public List<MemShipDetailsPojo> getMemDetailList() {
+		return memDetailList;
+	}
+
+	public void setMemDetailList(List<MemShipDetailsPojo> memDetailList) {
+		this.memDetailList = memDetailList;
+	}
+
+	@Override
+	public String toString() {
+		return "MembershipPojo [memShipName=" + memShipName + ", memDetailList=" + memDetailList + "]";
+	}
+
+	
+	
+
+
+	
+	
+}

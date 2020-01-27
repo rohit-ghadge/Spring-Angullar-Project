@@ -1,0 +1,100 @@
+package com.app.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+import static org.springframework.http.HttpStatus.*;
+
+import com.app.dao.IAdminDao;
+import com.app.pojos.ServicePojo;
+import com.app.pojos.SubServicePojo;
+
+@CrossOrigin(allowedHeaders = "*")
+@RestController
+@RequestMapping("/admin")
+public class AdminController {
+	@Autowired
+	IAdminDao adminDao;
+
+	public AdminController() {
+		System.out.println("inside admin controller");
+	}
+
+	// refered mam's 14.1
+	// 1-> request handling method for getting all services for admin
+	@GetMapping("/list")
+	public ResponseEntity<?> getAllMainServices() {
+		System.out.println("in get all subServices");
+		List<ServicePojo> list = adminDao.getAllMainServices() ;
+		if (list.isEmpty())
+			return new ResponseEntity<String>("No Services ", NO_CONTENT);
+		return new ResponseEntity<List<ServicePojo>>(list, OK);
+	}
+
+//	// 2 -> request handling method for getting specific service for admin on the
+//	// bases of subService Id
+//	@GetMapping("/{id}")
+//	public ResponseEntity<?> getSubServices(@PathVariable int id) {
+//		System.out.println("in get emp dtls " + id);
+//		SubServicePojo serviceDetails = adminDao.getSubService(id);
+//		System.out.println(serviceDetails);
+//		if (serviceDetails == null)
+//			return new ResponseEntity<String>("service not found...", NOT_FOUND);
+//		return new ResponseEntity<SubServicePojo>(serviceDetails, OK);
+//
+//	}
+
+	// 3-> request handling method adding new service
+	@PostMapping
+	public ResponseEntity<String> addNewService(@RequestBody ServicePojo ser) {
+		System.out.println("in add service " + ser);
+		try {
+			return new ResponseEntity<String>(adminDao.addMainService(ser), CREATED);
+		} catch (RuntimeException e1) {
+			return new ResponseEntity<String>(e1.getMessage(), INTERNAL_SERVER_ERROR);
+		}
+	}
+
+	// 4-> request handling method to update service details
+
+	@PutMapping("/{id}")
+	public ResponseEntity<?> updateEmpDetails(@PathVariable int id, @RequestBody ServicePojo ser) {
+		System.out.println("in update service controller" + id + " " + ser);
+		try {
+			// confirm if id exists
+			ServicePojo service = adminDao.getMainService(id);
+			if (service == null)
+				throw new RuntimeException("service ID invalid");
+			System.out.println("before calling dao");
+
+			ser.setId(service.getId());
+
+			return new ResponseEntity<ServicePojo>(adminDao.updateMainService(ser), OK);
+		} catch (RuntimeException e1) {
+			e1.printStackTrace();
+			return new ResponseEntity<String>(e1.getMessage(), INTERNAL_SERVER_ERROR);
+		}
+	}
+
+	// 5-> request handling method for deletion of services
+
+	@DeleteMapping("/{id}")
+	public ResponseEntity<String> delEmpDetails(@PathVariable int id) {
+		System.out.println("in del emp " + id);
+		try {
+			// conform if id exist
+			SubServicePojo service = adminDao.getSubService(id);
+			if (service == null)
+				throw new RuntimeException("service ID invalid");
+			return new ResponseEntity<String>(adminDao.deletesubService(service), OK);
+		} catch (RuntimeException e1) {
+			e1.printStackTrace();
+			return new ResponseEntity<String>(e1.getMessage(), NOT_FOUND);
+		}
+	}
+
+}
+
+//refer mam's 13.1 for redirecting

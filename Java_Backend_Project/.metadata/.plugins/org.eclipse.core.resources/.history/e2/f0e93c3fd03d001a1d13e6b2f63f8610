@@ -1,0 +1,46 @@
+package com.app.pojos;
+
+import java.util.Date;
+
+import javax.persistence.*;
+
+@Entity
+public class BookingPojo extends AbstractEntity
+{
+	private boolean status;
+	private Date dateTime;
+	
+	public BookingPojo() {
+		System.out.println("inside bookin pojo");
+	}
+	
+	public BookingPojo(boolean status, Date dateTime) {
+		super();
+		this.status = status;
+		this.dateTime = dateTime;
+	}
+
+	public boolean isStatus() {
+		return status;
+	}
+
+	public void setStatus(boolean status) {
+		this.status = status;
+	}
+
+	public Date getDateTime() {
+		return dateTime;
+	}
+
+	public void setDateTime(Date dateTime) {
+		this.dateTime = dateTime;
+	}
+
+	@Override
+	public String toString() {
+		return "BookingPojo [status=" + status + ", dateTime=" + dateTime + "]";
+	}
+	
+	
+
+}

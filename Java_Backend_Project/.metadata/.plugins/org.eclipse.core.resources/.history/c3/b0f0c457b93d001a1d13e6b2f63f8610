@@ -1,0 +1,50 @@
+package com.app.pojos;
+
+import javax.persistence.*;
+
+
+@Entity
+public class MembershipPojo extends AbstractEntity
+{
+	private String memShipName;
+	private UserPojo userMemShipId;
+	
+	public MembershipPojo() {
+		System.out.println("inside mem pojo");
+	}
+	
+	public MembershipPojo(String memShipName, UserPojo userMemShipId) {
+		super();
+		this.memShipName = memShipName;
+		this.userMemShipId = userMemShipId;
+	}
+
+	public String getMemShipName() {
+		return memShipName;
+	}
+
+	public void setMemShipName(String memShipName) {
+		this.memShipName = memShipName;
+	}
+	
+	@OneToOne(mappedBy = "memShipId", cascade = CascadeType.MERGE, orphanRemoval = true)
+	public UserPojo getUserMemShipId() {
+		return userMemShipId;
+	}
+
+	public void setUserMemShipId(UserPojo userMemShipId) {
+		this.userMemShipId = userMemShipId;
+	}
+
+	@Override
+	public String toString() {
+		return "MembershipPojo [memShipName=" + memShipName + "]";
+	}
+
+	
+	
+
+
+	
+	
+}

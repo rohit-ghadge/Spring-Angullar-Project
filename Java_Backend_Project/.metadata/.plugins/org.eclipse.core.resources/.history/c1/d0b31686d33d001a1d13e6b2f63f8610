@@ -1,0 +1,58 @@
+package com.app.pojos;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+import javax.persistence.*;
+
+@Entity
+public class BookingPojo extends AbstractEntity
+{
+	private boolean status;
+	private Date dateTime;
+	private List<UserPojo> user = new ArrayList<UserPojo>();
+	
+	public BookingPojo() {
+		System.out.println("inside bookin pojo");
+	}
+	
+	public BookingPojo(boolean status, Date dateTime, List<UserPojo> user) {
+		super();
+		this.status = status;
+		this.dateTime = dateTime;
+		this.user = user;
+	}
+
+	public boolean isStatus() {
+		return status;
+	}
+
+	public void setStatus(boolean status) {
+		this.status = status;
+	}
+	@Temporal(TemporalType.TIMESTAMP)
+	public Date getDateTime() {
+		return dateTime;
+	}
+
+	public void setDateTime(Date dateTime) {
+		this.dateTime = dateTime;
+	}
+	@OneToMany(mappedBy = "mainService", cascade = CascadeType.MERGE, orphanRemoval = true)
+	public List<UserPojo> getUser() {
+		return user;
+	}
+
+	public void setUser(List<UserPojo> user) {
+		this.user = user;
+	}
+
+	@Override
+	public String toString() {
+		return "BookingPojo [status=" + status + ", dateTime=" + dateTime + "]";
+	}
+	
+	
+
+}

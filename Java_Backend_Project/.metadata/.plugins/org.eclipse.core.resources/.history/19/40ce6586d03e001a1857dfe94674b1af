@@ -1,0 +1,72 @@
+package com.app.controller;
+
+import static org.springframework.http.HttpStatus.CREATED;
+import static org.springframework.http.HttpStatus.INTERNAL_SERVER_ERROR;
+import static org.springframework.http.HttpStatus.NO_CONTENT;
+import static org.springframework.http.HttpStatus.OK;
+
+import java.util.Date;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.app.dao.IBookingDao;
+
+import com.app.pojos.BookingPojo;
+import com.app.pojos.ServicePojo;
+import com.app.pojos.UserPojo;
+
+@CrossOrigin(allowedHeaders = "*")
+@RestController
+@RequestMapping("/booking")
+public class BookingController {
+
+	@Autowired
+	IBookingDao ibookdao;
+
+	public BookingController() {
+		System.out.println("inside BookingController");
+	}
+
+	@PostMapping
+	public ResponseEntity<Integer> addNewSubService(@RequestBody BookingPojo book) {
+		System.out.println("in add booking " + book);
+		Date date = new Date();
+		book.setDateTime(date);
+		UserPojo u = new UserPojo();
+		System.out.println(book.getUser());
+		u.setId(book.getUser().getId());
+		book.setUser(u);
+		try {
+			return new ResponseEntity<Integer>(ibookdao.registerBooking(book), CREATED);
+		} catch (RuntimeException e1) {
+			return new ResponseEntity<Integer>(0, INTERNAL_SERVER_ERROR);
+		}
+	}
+	
+	@GetMapping("/{id}")
+	public ResponseEntity<?> getServicesWrtUser(@PathVariable int id) 
+	{
+		System.out.println("in get all user booked Services");
+		System.out.println(id);
+//		UserPojo u = new UserPojo();
+//		System.out.println(book.getUser());
+//		u.setId(book.getUser().getId());
+//		book.setUser(u);
+		
+		List<BookingPojo> list = ibookdao.getUserBookedServices(id);
+	if (list.isEmpty())
+		return new ResponseEntity<String>("No Services ", NO_CONTENT);
+	return new ResponseEntity<List<BookingPojo>>(list, OK);
+	}
+
+}

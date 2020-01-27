@@ -1,0 +1,31 @@
+<div class="table-responsive" >
+  <table class="table table-hover" style="width: 100%">
+    <thead>
+        <tr>
+            <td colspan="4" style="text-align: center; color:black; background-image: url('assets/images/project.png') "><h2><b>SERVICE @ DOOR</b></h2></td>
+          </tr>
+      <tr style="background-color: blanchedalmond">
+          <td><nav class="navbar navbar-nav">
+              <ul class="nav navbar-nav">
+                <li class="active"><a routerLink="/home">Home</a></li>
+                <li><a routerLink="/about" >About Us</a></li>
+                <li><a routerLink="/contact" >Contact Us</a></li>
+                <!-- <li><a routerLink="/links" >Links</a></li> -->
+                <li><a routerLink="/register">Register here</a></li>
+                <li style="text-align: end" *ngIf="!isLogin"><a routerLink="login">Login/SignUp</a></li>
+                <li style="text-align: end" *ngIf="isLogin"><a (click)="logout()">LogOut</a></li>
+              </ul>
+            </nav></td>
+      </tr>
+         
+      
+    </thead>
+  </table>
+</div>
+ <router-outlet></router-outlet>
+
+ 
+ 
+
+
+

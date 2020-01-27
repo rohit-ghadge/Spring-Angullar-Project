@@ -1,0 +1,45 @@
+<div style="background-image: url('assets/images/project9.jpg');">
+
+<section class="login-block" style="height:100%; width:100% ">
+    <div class="container" >
+    <div class="row">
+      
+      <div class="col-md-4 login-sec">
+
+          <h2 class="text-center" style="text-align:center; color:darkred" >Login Here</h2>
+      </div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+  
+    <form #loginForm="ngForm"  (ngSubmit)="login(loginForm)" class="login-form">
+    
+    <div class="form-group">
+      <label  for="exampleInputEmail1" style="color:darkred" class="text-uppercase">Email Address</label>
+      <input (change)="generateOTP($event)" name="mail" ngModel value="" id="" placeholder="email id" required="required" type="text" class="form-control" >
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1" style="color:darkred" class="text-uppercase">OTP</label>
+      <input ngModel type="password" name="otp" class="form-control" id="" placeholder="OTP" required="required">
+    </div>
+    <div class="form-check">
+      <label class="form-check-label">
+      </label>
+      <button type="submit" class="btn btn-login float-right">Submit</button>
+    </div>
+  </form>
+  <br>
+  <br>
+  <br>
+  <a style="color:darkred" routerLink="/register">Create a New Account</a>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</div>

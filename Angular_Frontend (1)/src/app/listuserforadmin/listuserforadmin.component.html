@@ -1,0 +1,35 @@
+<tr style="text-align: end"><a class="btn btn-info" routerLink="/admin" role="button">Back to Main service list</a></tr>
+<div class="table-responsive">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Mobile No</th>
+        <th>Role</th>
+        <th>City</th>
+        <th>Pin-Code</th>
+        <th>State</th>
+        <th>OTP</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let u of users">
+        <td>{{u.name}}</td>
+        <td>{{u.email}}</td>
+        <td>{{u.mobile}}</td>
+        <td>{{u.role}}</td>
+        <td>{{u.userloc.city}}</td>
+        <td>{{u.userloc.pincode}}</td>
+        <td>{{u.userloc.state}}</td>
+        <td>{{u.otp}}</td>
+      </tr>
+    
+    </tbody>
+  </table>
+</div> 
+<router-outlet></router-outlet>
+
+
+
+

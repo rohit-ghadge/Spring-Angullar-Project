@@ -1,0 +1,65 @@
+<div style="background-image: url('assets/images/project5.jpg')">
+    <section class="login-block">
+        <div class="container" >
+        <div class="row">
+          <div class="col-md-4 login-sec">
+              <h2 class="text-center" style="text-align: center">Register Here</h2>
+          </div>
+          <br>
+                <br>
+                <br>
+                <br>
+              <form #myForm="ngForm" (ngSubmit)="register(myForm)" class="login-form">
+                
+        <div class="form-group">
+          <label  for="exampleInputEmail1" class="text-uppercase">Name</label>
+          <input  name="name" ngModel required="required" type="text" class="form-control" >
+        </div>
+    
+        
+        <div class="form-group">
+          <label for="exampleInputPassword1" class="text-uppercase">Mobile </label>
+          <input ngModel type="number" name="mobile" minlength="10" maxlength="10" class="form-control" required="required">
+        </div>
+    
+        <div class="form-group">
+            <label for="exampleInputPassword1" class="text-uppercase">Email</label>
+            <input ngModel type="email" name="email" class="form-control" required="required">
+        </div>
+    
+        <div class="form-group">
+            <label  for="exampleInputEmail1" class="text-uppercase">Role</label>
+           <select ngModel name="role" class="form-control" required="required">
+             <option value="CUSTOMER">CUSTOMER</option>
+             <option value="WORKER">WORKER</option>
+          </select>
+       </div>
+    
+        <div class="form-group">
+            <label for="exampleInputPassword1" class="text-uppercase">City </label>
+            <input ngModel type="text" name="city" class="form-control" required="required">
+        </div>
+    
+        <div class="form-group">
+            <label for="exampleInputPassword1" class="text-uppercase">State </label>
+            <input ngModel type="text" name="state" class="form-control" required="required">
+        </div>
+    
+        <div class="form-group">
+          <label for="exampleInputPassword1" class="text-uppercase">Pin code </label>
+          <input ngModel type="text" name="pincode" class="form-control" required="required">
+        </div>
+    
+        <div class="form-check">
+          <label class="form-check-label">
+          </label>
+          <button type="submit" class="btn btn-info float-right">Submit</button>
+        </div>
+    
+      </form>
+</div>
+  <br>
+  <br>
+
+
+
